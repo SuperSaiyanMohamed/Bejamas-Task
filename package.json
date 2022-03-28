@@ -1,0 +1,24 @@
+{
+  "name": "bejamas-task",
+  "version": "1.0.0",
+  "description": "test automation for Bejamas LLC.",
+  "main": "index.js",
+  "scripts": {
+    "test-headless": "cypress run --headless",
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperSaiyanMohamed/Bejamas-Task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperSaiyanMohamed/Bejamas-Task/issues"
+  },
+  "homepage": "https://github.com/SuperSaiyanMohamed/Bejamas-Task#readme",
+  "devDependencies": {
+    "cypress": "^9.5.2",
+    "cypress-audit": "^1.1.0"
+  }
+}
